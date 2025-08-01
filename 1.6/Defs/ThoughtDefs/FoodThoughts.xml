@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ======= Basic food thoughts ========= -->
+  <ThoughtDef>
+    <defName>AtePorridge</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate porridge</label>
+        <description>Simple meal of Cereals boiled with enough neutrients to keep you alive; however there is little to no flavor.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteCreamyPorridge</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate porridge</label>
+        <description>Simple meal of Cereals boiled with enough neutrients to keep you alive; however there is little to no flavor.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteSweetPorridge</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate sweet porridge</label>
+        <description>Simple meal of Cereals and fruits boiled with enough neutrients to keep you alive; its pretty tasty</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteCreamySweetPorridge</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate creamy sweet porridge</label>
+        <description>That lavish meal was amazing. It nourished my body and my soul.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

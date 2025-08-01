@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef ParentName="BluntBase">
+    <defName>RangedBlunt</defName>
+    <label>Blunt Missile</label>
+    <deathMessage>{0} has been Bludgeoned to death by a Stone Bullet.</deathMessage>
+    <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+  </DamageDef>
+</Defs>

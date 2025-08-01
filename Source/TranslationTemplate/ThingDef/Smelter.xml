@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: primitive smelter -->
+  <PrimitiveSmelter.label>primitive smelter</PrimitiveSmelter.label>
+  <!-- EN: Extracts usable metal from slag chunks and other mixed metal items. Consumes a lot of fuel. -->
+  <PrimitiveSmelter.description>Extracts usable metal from slag chunks and other mixed metal items. Consumes a lot of fuel.</PrimitiveSmelter.description>
+</LanguageData>

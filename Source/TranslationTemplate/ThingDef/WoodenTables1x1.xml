@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Small Wooden Research Table -->
+  <SmallWoodenResearchTable.label>Small Wooden Research Table</SmallWoodenResearchTable.label>
+  <!-- EN: A simple stone table with pestel mortar for grinding herbs scones and mixing liquids. Also a tablet for recording observations. Researchers work here to discover new things. -->
+  <SmallWoodenResearchTable.description>A simple stone table with pestel mortar for grinding herbs scones and mixing liquids. Also a tablet for recording observations. Researchers work here to discover new things.</SmallWoodenResearchTable.description>
+  <!-- EN: Small Wooden Butchers Table -->
+  <WoodenButhersTable.label>Small Wooden Butchers Table</WoodenButhersTable.label>
+  <!-- EN: A heavy table for butchering dead creatures into pieces of raw meat. -->
+  <WoodenButhersTable.description>A heavy table for butchering dead creatures into pieces of raw meat.</WoodenButhersTable.description>
+  <!-- EN: Wooden Stone Working Station -->
+  <WoodenStoneWorkingStation.label>Wooden Stone Working Station</WoodenStoneWorkingStation.label>
+  <!-- EN: A stone table with simple stone tools used for cutting and Chisseling stone chunks into usable blocks. -->
+  <WoodenStoneWorkingStation.description>A stone table with simple stone tools used for cutting and Chisseling stone chunks into usable blocks.</WoodenStoneWorkingStation.description>
+</LanguageData>

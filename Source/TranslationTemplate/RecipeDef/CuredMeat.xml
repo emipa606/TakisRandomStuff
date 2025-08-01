@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Cured Meat -->
+  <Make_CuredMeat.label>Make Cured Meat</Make_CuredMeat.label>
+  <!-- EN: Make cured meat by wrapping meat in lard and tending it daily. -->
+  <Make_CuredMeat.description>Make cured meat by wrapping meat in lard and tending it daily.</Make_CuredMeat.description>
+  <!-- EN: Making Cured Meat. -->
+  <Make_CuredMeat.jobString>Making Cured Meat.</Make_CuredMeat.jobString>
+</LanguageData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Blue Herb -->
+  <BlueHerb.label>Blue Herb</BlueHerb.label>
+  <!-- EN: Blue herb from plant. -->
+  <BlueHerb.description>Blue herb from plant.</BlueHerb.description>
+  <!-- EN: Apply {0} -->
+  <BlueHerb.ingestible.ingestCommandString>Apply {0}</BlueHerb.ingestible.ingestCommandString>
+  <!-- EN: Applying {0}. -->
+  <BlueHerb.ingestible.ingestReportString>Applying {0}.</BlueHerb.ingestible.ingestReportString>
+  <!-- EN: Green Herb -->
+  <GreenHerb.label>Green Herb</GreenHerb.label>
+  <!-- EN: Green herb from plant. -->
+  <GreenHerb.description>Green herb from plant.</GreenHerb.description>
+  <!-- EN: Apply {0} -->
+  <GreenHerb.ingestible.ingestCommandString>Apply {0}</GreenHerb.ingestible.ingestCommandString>
+  <!-- EN: Applying {0}. -->
+  <GreenHerb.ingestible.ingestReportString>Applying {0}.</GreenHerb.ingestible.ingestReportString>
+  <!-- EN: Red Herb -->
+  <RedHerb.label>Red Herb</RedHerb.label>
+  <!-- EN: Red herb from plant. -->
+  <RedHerb.description>Red herb from plant.</RedHerb.description>
+  <!-- EN: Apply {0} -->
+  <RedHerb.ingestible.ingestCommandString>Apply {0}</RedHerb.ingestible.ingestCommandString>
+  <!-- EN: Applying {0}. -->
+  <RedHerb.ingestible.ingestReportString>Applying {0}.</RedHerb.ingestible.ingestReportString>
+  <!-- EN: Yellow Herb -->
+  <YellowHerb.label>Yellow Herb</YellowHerb.label>
+  <!-- EN: Yellow herb from plant. -->
+  <YellowHerb.description>Yellow herb from plant.</YellowHerb.description>
+  <!-- EN: Apply {0} -->
+  <YellowHerb.ingestible.ingestCommandString>Apply {0}</YellowHerb.ingestible.ingestCommandString>
+  <!-- EN: Applying {0}. -->
+  <YellowHerb.ingestible.ingestReportString>Applying {0}.</YellowHerb.ingestible.ingestReportString>
+</LanguageData>

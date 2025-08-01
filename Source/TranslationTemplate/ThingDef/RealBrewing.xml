@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: alewort -->
+  <AleWort.label>alewort</AleWort.label>
+  <!-- EN: Un-fermented beer. This substance needs to ferment in a fermenting barrel before it becomes drinkable beer. -->
+  <AleWort.description>Un-fermented beer. This substance needs to ferment in a fermenting barrel before it becomes drinkable beer.</AleWort.description>
+  <!-- EN: Ancient Ale -->
+  <AncientAle.label>Ancient Ale</AncientAle.label>
+  <!-- EN: Ancient Ale is basically liquid bread but its main effect is intoxication. Excessive consumption can lead to alcohol blackouts and, over time, addiction. -->
+  <AncientAle.description>Ancient Ale is basically liquid bread but its main effect is intoxication. Excessive consumption can lead to alcohol blackouts and, over time, addiction.</AncientAle.description>
+  <!-- EN: Drink {0} -->
+  <AncientAle.ingestible.ingestCommandString>Drink {0}</AncientAle.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <AncientAle.ingestible.ingestReportString>Drinking {0}.</AncientAle.ingestible.ingestReportString>
+  <!-- EN: cup -->
+  <AncientAle.tools.cup.label>cup</AncientAle.tools.cup.label>
+  <!-- EN: fermenting Pot -->
+  <UniversalFermenter_Pot.label>fermenting Pot</UniversalFermenter_Pot.label>
+  <!-- EN: A clay pot for fermenting raw wort into ancient Ale. -->
+  <UniversalFermenter_Pot.description>A clay pot for fermenting raw wort into ancient Ale.</UniversalFermenter_Pot.description>
+</LanguageData>

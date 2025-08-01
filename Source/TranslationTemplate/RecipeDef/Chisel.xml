@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Chisle any stone blocks -->
+  <Chisle_StoneBlocksAny.label>Chisle any stone blocks</Chisle_StoneBlocksAny.label>
+  <!-- EN: Chisle rock chunks into usable stone blocks. -->
+  <Chisle_StoneBlocksAny.description>Chisle rock chunks into usable stone blocks.</Chisle_StoneBlocksAny.description>
+  <!-- EN: Chisle stone blocks from chunk. -->
+  <Chisle_StoneBlocksAny.jobString>Chisle stone blocks from chunk.</Chisle_StoneBlocksAny.jobString>
+  <!-- EN: Chisle granite chunks into blocks -->
+  <ChisleGraniteBlocks.label>Chisle granite chunks into blocks</ChisleGraniteBlocks.label>
+  <!-- EN: Chisle granite chunks into usable stone blocks. -->
+  <ChisleGraniteBlocks.description>Chisle granite chunks into usable stone blocks.</ChisleGraniteBlocks.description>
+  <!-- EN: Chisle stone blocks from chunk. -->
+  <ChisleGraniteBlocks.jobString>Chisle stone blocks from chunk.</ChisleGraniteBlocks.jobString>
+  <!-- EN: Chisle limestone chunks into blocks -->
+  <ChisleLimestoneBlocks.label>Chisle limestone chunks into blocks</ChisleLimestoneBlocks.label>
+  <!-- EN: Chisle limestone chunks into usable stone blocks. -->
+  <ChisleLimestoneBlocks.description>Chisle limestone chunks into usable stone blocks.</ChisleLimestoneBlocks.description>
+  <!-- EN: Chisle stone blocks from chunk. -->
+  <ChisleLimestoneBlocks.jobString>Chisle stone blocks from chunk.</ChisleLimestoneBlocks.jobString>
+  <!-- EN: Chisle marble chunks into blocks -->
+  <ChisleMarbleBlocks.label>Chisle marble chunks into blocks</ChisleMarbleBlocks.label>
+  <!-- EN: Chisle marble chunks into usable stone blocks. -->
+  <ChisleMarbleBlocks.description>Chisle marble chunks into usable stone blocks.</ChisleMarbleBlocks.description>
+  <!-- EN: Chisle stone blocks from chunk. -->
+  <ChisleMarbleBlocks.jobString>Chisle stone blocks from chunk.</ChisleMarbleBlocks.jobString>
+  <!-- EN: Chisle sandstone chunks into blocks -->
+  <ChisleSandstoneBlocks.label>Chisle sandstone chunks into blocks</ChisleSandstoneBlocks.label>
+  <!-- EN: Chisle sandstone chunks into usable stone blocks. -->
+  <ChisleSandstoneBlocks.description>Chisle sandstone chunks into usable stone blocks.</ChisleSandstoneBlocks.description>
+  <!-- EN: Chisle stone blocks from chunk. -->
+  <ChisleSandstoneBlocks.jobString>Chisle stone blocks from chunk.</ChisleSandstoneBlocks.jobString>
+  <!-- EN: Chisle slate chunks into blocks -->
+  <ChisleSlateBlocks.label>Chisle slate chunks into blocks</ChisleSlateBlocks.label>
+  <!-- EN: Chisle slate chunks into usable stone blocks. -->
+  <ChisleSlateBlocks.description>Chisle slate chunks into usable stone blocks.</ChisleSlateBlocks.description>
+  <!-- EN: Chisle stone blocks from chunk. -->
+  <ChisleSlateBlocks.jobString>Chisle stone blocks from chunk.</ChisleSlateBlocks.jobString>
+</LanguageData>

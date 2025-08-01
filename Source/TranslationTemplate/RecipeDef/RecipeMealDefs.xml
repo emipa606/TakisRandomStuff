@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cook a pot of Creamy Porridge for five -->
+  <CookPotOfCreamyPorridge.label>cook a pot of Creamy Porridge for five</CookPotOfCreamyPorridge.label>
+  <!-- EN: Cook a pot of Delicous Creamy porridge enough nutrients and some flavor for five people. -->
+  <CookPotOfCreamyPorridge.description>Cook a pot of Delicous Creamy porridge enough nutrients and some flavor for five people.</CookPotOfCreamyPorridge.description>
+  <!-- EN: Cooking a pot porridge. -->
+  <CookPotOfCreamyPorridge.jobString>Cooking a pot porridge.</CookPotOfCreamyPorridge.jobString>
+  <!-- EN: cook a pot of Creamy Sweet Porridge for five -->
+  <CookPotOfCreamySweetPorridge.label>cook a pot of Creamy Sweet Porridge for five</CookPotOfCreamySweetPorridge.label>
+  <!-- EN: Cook a pot of Delicous Creamy Sweet porridge enough nutrients and flavor for five people. -->
+  <CookPotOfCreamySweetPorridge.description>Cook a pot of Delicous Creamy Sweet porridge enough nutrients and flavor for five people.</CookPotOfCreamySweetPorridge.description>
+  <!-- EN: Cooking a pot porridge. -->
+  <CookPotOfCreamySweetPorridge.jobString>Cooking a pot porridge.</CookPotOfCreamySweetPorridge.jobString>
+  <!-- EN: cook a pot of Porridge for five -->
+  <CookPotOfPorridge.label>cook a pot of Porridge for five</CookPotOfPorridge.label>
+  <!-- EN: Cook a pot of porridge enough nutrients for five people. -->
+  <CookPotOfPorridge.description>Cook a pot of porridge enough nutrients for five people.</CookPotOfPorridge.description>
+  <!-- EN: Cooking a pot porridge. -->
+  <CookPotOfPorridge.jobString>Cooking a pot porridge.</CookPotOfPorridge.jobString>
+  <!-- EN: cook a pot of Sweet Porridge for five -->
+  <CookPotOfSweetPorridge.label>cook a pot of Sweet Porridge for five</CookPotOfSweetPorridge.label>
+  <!-- EN: Cook a pot of sweet porridge enough nutrients and some flavor for five people. -->
+  <CookPotOfSweetPorridge.description>Cook a pot of sweet porridge enough nutrients and some flavor for five people.</CookPotOfSweetPorridge.description>
+  <!-- EN: Cooking a pot porridge. -->
+  <CookPotOfSweetPorridge.jobString>Cooking a pot porridge.</CookPotOfSweetPorridge.jobString>
+</LanguageData>

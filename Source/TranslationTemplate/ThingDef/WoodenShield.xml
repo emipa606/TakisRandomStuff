@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Maasai -->
+  <Maasai.label>Maasai</Maasai.label>
+  <!-- EN: side -->
+  <Maasai.tools.side.label>side</Maasai.tools.side.label>
+  <!-- EN: buckle -->
+  <Maasai.tools.buckle.label>buckle</Maasai.tools.buckle.label>
+  <!-- EN: Simple Wooden Shield -->
+  <SimpleWoodenShield.label>Simple Wooden Shield</SimpleWoodenShield.label>
+  <!-- EN: side -->
+  <SimpleWoodenShield.tools.side.label>side</SimpleWoodenShield.tools.side.label>
+  <!-- EN: buckle -->
+  <SimpleWoodenShield.tools.buckle.label>buckle</SimpleWoodenShield.tools.buckle.label>
+</LanguageData>

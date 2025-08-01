@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Blunt Missile -->
+  <RangedBlunt.label>Blunt Missile</RangedBlunt.label>
+  <!-- EN: {0} has been Bludgeoned to death by a Stone Bullet. -->
+  <RangedBlunt.deathMessage>{0} has been Bludgeoned to death by a Stone Bullet.</RangedBlunt.deathMessage>
+</LanguageData>

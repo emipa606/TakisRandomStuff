@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>Cereal</defName>
+    <label>Cereal</label>
+    <parent>PlantFoodRaw</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>GrainandLentils</defName>
+    <label>GrainAndLentils</label>
+    <parent>PlantFoodRaw</parent>
+    <iconPath>Ui/Icons/ThingCategories/FoodRaw</iconPath>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>FruitFoodRaw</defName>
+    <label>RawFruits</label>
+    <parent>FoodRaw</parent>
+    <iconPath>Ui/Icons/ThingCategories/FoodRaw</iconPath>
+  </ThingCategoryDef>
+</Defs>

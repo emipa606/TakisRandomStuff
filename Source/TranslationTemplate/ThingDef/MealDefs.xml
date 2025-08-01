@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Bowl of Creamy Porridge -->
+  <BowlOfCreamyPorridge.label>Bowl of Creamy Porridge</BowlOfCreamyPorridge.label>
+  <!-- EN: A Bowl of porridge oats boiled in milk a simple meal. -->
+  <BowlOfCreamyPorridge.description>A Bowl of porridge oats boiled in milk a simple meal.</BowlOfCreamyPorridge.description>
+  <!-- EN: Bowl of Creamy Sweet Porridge -->
+  <BowlOfCreamySweetPorridge.label>Bowl of Creamy Sweet Porridge</BowlOfCreamySweetPorridge.label>
+  <!-- EN: A Bowl of porridge oats boiled in milk mixed with berries or fruits a fine simple meal. -->
+  <BowlOfCreamySweetPorridge.description>A Bowl of porridge oats boiled in milk mixed with berries or fruits a fine simple meal.</BowlOfCreamySweetPorridge.description>
+  <!-- EN: Bowl of Porridge -->
+  <BowlOfPorridge.label>Bowl of Porridge</BowlOfPorridge.label>
+  <!-- EN: A simple meal quickly cooked from oats boiled in water. -->
+  <BowlOfPorridge.description>A simple meal quickly cooked from oats boiled in water.</BowlOfPorridge.description>
+  <!-- EN: Bowl of Sweet Porridge -->
+  <BowlOfSweetPorridge.label>Bowl of Sweet Porridge</BowlOfSweetPorridge.label>
+  <!-- EN: A Bowl of porridge mixed with berries or fruits a simple meal. -->
+  <BowlOfSweetPorridge.description>A Bowl of porridge mixed with berries or fruits a simple meal.</BowlOfSweetPorridge.description>
+</LanguageData>

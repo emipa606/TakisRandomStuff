@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Name="ChisleStone" Abstract="True">
+    <jobString>Chisle stone blocks from chunk.</jobString>
+    <workAmount>3600</workAmount>
+    <workSkill>Construction</workSkill>
+    <workSkillLearnFactor>0.3</workSkillLearnFactor>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <targetCountAdjustment>20</targetCountAdjustment>
+    <skillRequirements>
+      <Construction>3</Construction>
+    </skillRequirements>
+    <recipeUsers>
+      <li>StoneChippingSpot</li>
+      <li>StoneWorkingStation</li>
+      <li>WoodenStoneWorkingStation</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="ChisleStone">
+    <defName>Chisle_StoneBlocksAny</defName>
+    <label>Chisle any stone blocks</label>
+    <description>Chisle rock chunks into usable stone blocks.</description>
+    <workerCounterClass>RecipeWorkerCounter_MakeStoneBlocks</workerCounterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <specialProducts>
+      <li>Butchery</li>
+    </specialProducts>
+  </RecipeDef>
+  <RecipeDef ParentName="ChisleStone">
+    <defName>ChisleSandstoneBlocks</defName>
+    <label>Chisle sandstone chunks into blocks</label>
+    <description>Chisle sandstone chunks into usable stone blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkSandstone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <BlocksSandstone>20</BlocksSandstone>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkSandstone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="ChisleStone">
+    <defName>ChisleGraniteBlocks</defName>
+    <label>Chisle granite chunks into blocks</label>
+    <description>Chisle granite chunks into usable stone blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkGranite</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <BlocksGranite>20</BlocksGranite>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkGranite</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="ChisleStone">
+    <defName>ChisleLimestoneBlocks</defName>
+    <label>Chisle limestone chunks into blocks</label>
+    <description>Chisle limestone chunks into usable stone blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkLimestone</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <BlocksLimestone>20</BlocksLimestone>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkLimestone</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="ChisleStone">
+    <defName>ChisleSlateBlocks</defName>
+    <label>Chisle slate chunks into blocks</label>
+    <description>Chisle slate chunks into usable stone blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkSlate</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <BlocksSlate>20</BlocksSlate>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkSlate</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="ChisleStone">
+    <defName>ChisleMarbleBlocks</defName>
+    <label>Chisle marble chunks into blocks</label>
+    <description>Chisle marble chunks into usable stone blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkMarble</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <BlocksMarble>20</BlocksMarble>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

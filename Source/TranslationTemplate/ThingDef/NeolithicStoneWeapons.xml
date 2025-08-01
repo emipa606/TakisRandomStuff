@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: StoneAxe -->
+  <MeleeWeapon_StoneAxe.label>StoneAxe</MeleeWeapon_StoneAxe.label>
+  <!-- EN: smoother stone Rock banded to a stick with leather straps. -->
+  <MeleeWeapon_StoneAxe.description>smoother stone Rock banded to a stick with leather straps.</MeleeWeapon_StoneAxe.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_StoneAxe.tools.handle.label>handle</MeleeWeapon_StoneAxe.tools.handle.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_StoneAxe.tools.edge.label>edge</MeleeWeapon_StoneAxe.tools.edge.label>
+  <!-- EN: StoneHammer -->
+  <MeleeWeapon_StoneHammer.label>StoneHammer</MeleeWeapon_StoneHammer.label>
+  <!-- EN: smoother stone Rock banded to a stick with leather straps. -->
+  <MeleeWeapon_StoneHammer.description>smoother stone Rock banded to a stick with leather straps.</MeleeWeapon_StoneHammer.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_StoneHammer.tools.handle.label>handle</MeleeWeapon_StoneHammer.tools.handle.label>
+  <!-- EN: head -->
+  <MeleeWeapon_StoneHammer.tools.head.label>head</MeleeWeapon_StoneHammer.tools.head.label>
+  <!-- EN: StoneSpear -->
+  <MeleeWeapon_StoneSpear.label>StoneSpear</MeleeWeapon_StoneSpear.label>
+  <!-- EN: smoother stone Rock banded to a stick with leather straps. -->
+  <MeleeWeapon_StoneSpear.description>smoother stone Rock banded to a stick with leather straps.</MeleeWeapon_StoneSpear.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_StoneSpear.tools.handle.label>handle</MeleeWeapon_StoneSpear.tools.handle.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_StoneSpear.tools.edge.label>edge</MeleeWeapon_StoneSpear.tools.edge.label>
+  <!-- EN: point -->
+  <MeleeWeapon_StoneSpear.tools.point.label>point</MeleeWeapon_StoneSpear.tools.point.label>
+  <!-- EN: StoneSpear -->
+  <MeleeWeapon_StoneSpear.verbs.Verb_Shoot.label>StoneSpear</MeleeWeapon_StoneSpear.verbs.Verb_Shoot.label>
+  <!-- EN: Stone Sword -->
+  <MeleeWeapon_StoneSword.label>Stone Sword</MeleeWeapon_StoneSword.label>
+  <!-- EN: Chipped flint sharpened on a wet stone and afixed to a wooden base. -->
+  <MeleeWeapon_StoneSword.description>Chipped flint sharpened on a wet stone and afixed to a wooden base.</MeleeWeapon_StoneSword.description>
+  <!-- EN: handle -->
+  <MeleeWeapon_StoneSword.tools.handle.label>handle</MeleeWeapon_StoneSword.tools.handle.label>
+  <!-- EN: edge -->
+  <MeleeWeapon_StoneSword.tools.edge.label>edge</MeleeWeapon_StoneSword.tools.edge.label>
+  <!-- EN: LeatherSling -->
+  <RangedWeapon_LeatherSling.label>LeatherSling</RangedWeapon_LeatherSling.label>
+  <!-- EN: Long leather pouch used to fling rocks can used as simple blunt weapon when througher does not release the stone. -->
+  <RangedWeapon_LeatherSling.description>Long leather pouch used to fling rocks can used as simple blunt weapon when througher does not release the stone.</RangedWeapon_LeatherSling.description>
+  <!-- EN: head -->
+  <RangedWeapon_LeatherSling.tools.head.label>head</RangedWeapon_LeatherSling.tools.head.label>
+  <!-- EN: LeatherSling -->
+  <RangedWeapon_LeatherSling.verbs.Verb_Shoot.label>LeatherSling</RangedWeapon_LeatherSling.verbs.Verb_Shoot.label>
+  <!-- EN: Sling Stone Bullet -->
+  <SlingStoneBullet.label>Sling Stone Bullet</SlingStoneBullet.label>
+  <!-- EN: ThrownStoneSpear -->
+  <StoneSpear_Thrown.label>ThrownStoneSpear</StoneSpear_Thrown.label>
+</LanguageData>

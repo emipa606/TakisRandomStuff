@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ate porridge -->
+  <AteCreamyPorridge.stages.ate_porridge.label>ate porridge</AteCreamyPorridge.stages.ate_porridge.label>
+  <!-- EN: Simple meal of Cereals boiled with enough neutrients to keep you alive; however there is little to no flavor. -->
+  <AteCreamyPorridge.stages.ate_porridge.description>Simple meal of Cereals boiled with enough neutrients to keep you alive; however there is little to no flavor.</AteCreamyPorridge.stages.ate_porridge.description>
+  <!-- EN: ate creamy sweet porridge -->
+  <AteCreamySweetPorridge.stages.ate_creamy_sweet_porridge.label>ate creamy sweet porridge</AteCreamySweetPorridge.stages.ate_creamy_sweet_porridge.label>
+  <!-- EN: That lavish meal was amazing. It nourished my body and my soul. -->
+  <AteCreamySweetPorridge.stages.ate_creamy_sweet_porridge.description>That lavish meal was amazing. It nourished my body and my soul.</AteCreamySweetPorridge.stages.ate_creamy_sweet_porridge.description>
+  <!-- EN: ate porridge -->
+  <AtePorridge.stages.ate_porridge.label>ate porridge</AtePorridge.stages.ate_porridge.label>
+  <!-- EN: Simple meal of Cereals boiled with enough neutrients to keep you alive; however there is little to no flavor. -->
+  <AtePorridge.stages.ate_porridge.description>Simple meal of Cereals boiled with enough neutrients to keep you alive; however there is little to no flavor.</AtePorridge.stages.ate_porridge.description>
+  <!-- EN: ate sweet porridge -->
+  <AteSweetPorridge.stages.ate_sweet_porridge.label>ate sweet porridge</AteSweetPorridge.stages.ate_sweet_porridge.label>
+  <!-- EN: Simple meal of Cereals and fruits boiled with enough neutrients to keep you alive; its pretty tasty -->
+  <AteSweetPorridge.stages.ate_sweet_porridge.description>Simple meal of Cereals and fruits boiled with enough neutrients to keep you alive; its pretty tasty</AteSweetPorridge.stages.ate_sweet_porridge.description>
+</LanguageData>

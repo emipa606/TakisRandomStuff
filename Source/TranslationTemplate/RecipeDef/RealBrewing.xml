@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make ale wort -->
+  <Make_AleWort.label>make ale wort</Make_AleWort.label>
+  <!-- EN: Make ale wort from hops. -->
+  <Make_AleWort.description>Make ale wort from hops.</Make_AleWort.description>
+  <!-- EN: Making wort. -->
+  <Make_AleWort.jobString>Making wort.</Make_AleWort.jobString>
+</LanguageData>

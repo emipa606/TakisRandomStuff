@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Barley Plant -->
+  <Plant_Barley.label>Barley Plant</Plant_Barley.label>
+  <!-- EN: One of the first crops to be demesticated by Humans. This staple crop has provided humanity with the nutrients neccessary for growth through the ages. Can be used to brew beer -->
+  <Plant_Barley.description>One of the first crops to be demesticated by Humans. This staple crop has provided humanity with the nutrients neccessary for growth through the ages. Can be used to brew beer</Plant_Barley.description>
+  <!-- EN: Oat Plant -->
+  <Plant_Oat.label>Oat Plant</Plant_Oat.label>
+  <!-- EN: One of the first crops to be demesticated by Humans. This staple crop has provided humanity with the nutrients neccessary for growth through the ages. -->
+  <Plant_Oat.description>One of the first crops to be demesticated by Humans. This staple crop has provided humanity with the nutrients neccessary for growth through the ages.</Plant_Oat.description>
+  <!-- EN: Barley -->
+  <RawBarley.label>Barley</RawBarley.label>
+  <!-- EN: Cereal grain used for livestock feed, cooked for food, and can be brewed into beer wort -->
+  <RawBarley.description>Cereal grain used for livestock feed, cooked for food, and can be brewed into beer wort</RawBarley.description>
+  <!-- EN: Oats -->
+  <RawOats.label>Oats</RawOats.label>
+  <!-- EN: Cereal grain used for livestock feed, cooked for food. -->
+  <RawOats.description>Cereal grain used for livestock feed, cooked for food.</RawOats.description>
+</LanguageData>

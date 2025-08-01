@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef/fixedBillGiverDefs[li="TableStonecutter"]</xpath>
+    <value>
+      <li>StoneChippingSpot</li>
+      <li>StoneWorkingStation</li>
+      <li>WoodenStoneWorkingStation</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef/fixedBillGiverDefs[li="ButcherSpot"]</xpath>
+    <value>
+      <li>StoneButhersBlock</li>
+      <li>WoodenButhersTable</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef/fixedBillGiverDefs[li="ElectricSmelter"]</xpath>
+    <value>
+      <li>PrimitiveSmelter</li>
+    </value>
+  </Operation>
+</Patch>

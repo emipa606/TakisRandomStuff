@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="RC2_RawBarley"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Make_AleWort"]/ingredients/li/filter/thingDefs</xpath>
+      <value>
+        <li>RC2_RawBarley</li>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="RC2_RawBarley"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="Make_AleWort"]/fixedIngredientFilter/thingDefs</xpath>
+      <value>
+        <li>RC2_RawBarley</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>

@@ -3,5 +3,16 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "SocialImageSet": true,
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 0,
+  "LinesOfXML": 80624,
+  "CodeBaseSize": 77,
+  "LastXmlCleaning": "2025-08-01T22:38:41.2018426+02:00",
+  "SearchTags": [
+    " shields",
+    " primitive smelter"
+  ]
 }

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>MedicalHerbs</defName>
+    <label>Medical Herbs</label>
+    <parent>Drugs</parent>
+    <iconPath>UI/Icons/ThingCategories/Drugs</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <!--=============== Herb Base ====================-->
+  <ThingDef ParentName="MakeableDrugBase" Name="HerbBase" Abstract="True">
+    <thingClass>Medicine</thingClass>
+    <stackLimit>750</stackLimit>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <ingestible>
+      <nurseable>true</nurseable>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>100</baseIngestTicks>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <ingestCommandString>Apply {0}</ingestCommandString>
+      <ingestReportString>Applying {0}.</ingestReportString>
+      <drugCategory>Medical</drugCategory>
+      <chairSearchRadius>0</chairSearchRadius>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+    </ingestible>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <thingCategories Inherit="false">
+      <li>MedicalHerbs</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="HerbBase">
+    <defName>GreenHerb</defName>
+    <label>Green Herb</label>
+    <description>Green herb from plant.</description>
+    <graphicData>
+      <texPath>Things/Resource/Herbs/GreenHerb</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <WorkToMake>450</WorkToMake>
+      <MarketValue>0.8</MarketValue>
+      <Mass>0.15</Mass>
+      <Flammability>1.00</Flammability>
+      <MedicalPotency>0.2</MedicalPotency>
+      <MedicalQualityMax>0.3</MedicalQualityMax>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SoothPain</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <skillRequirements>
+        <Medicine>2</Medicine>
+        <Intellectual>2</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <MedicineHerbal>1</MedicineHerbal>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1505</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="HerbBase">
+    <defName>YellowHerb</defName>
+    <label>Yellow Herb</label>
+    <description>Yellow herb from plant.</description>
+    <graphicData>
+      <texPath>Things/Resource/Herbs/YellowHerb</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <WorkToMake>450</WorkToMake>
+      <MarketValue>0.8</MarketValue>
+      <Mass>0.15</Mass>
+      <Flammability>1.00</Flammability>
+      <MedicalPotency>0.2</MedicalPotency>
+      <MedicalQualityMax>0.3</MedicalQualityMax>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SoothPain</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <skillRequirements>
+        <Medicine>2</Medicine>
+        <Intellectual>2</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <MedicineHerbal>1</MedicineHerbal>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1505</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="HerbBase">
+    <defName>BlueHerb</defName>
+    <label>Blue Herb</label>
+    <description>Blue herb from plant.</description>
+    <graphicData>
+      <texPath>Things/Resource/Herbs/BlueHerb</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <WorkToMake>450</WorkToMake>
+      <MarketValue>0.8</MarketValue>
+      <Mass>0.15</Mass>
+      <Flammability>1.00</Flammability>
+      <MedicalPotency>0.2</MedicalPotency>
+      <MedicalQualityMax>0.3</MedicalQualityMax>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SoothPain</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <skillRequirements>
+        <Medicine>2</Medicine>
+        <Intellectual>2</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <MedicineHerbal>1</MedicineHerbal>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1505</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="HerbBase">
+    <defName>RedHerb</defName>
+    <label>Red Herb</label>
+    <description>Red herb from plant.</description>
+    <graphicData>
+      <texPath>Things/Resource/Herbs/RedHerb</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <WorkToMake>450</WorkToMake>
+      <MarketValue>0.8</MarketValue>
+      <Mass>0.15</Mass>
+      <Flammability>1.00</Flammability>
+      <MedicalPotency>0.2</MedicalPotency>
+      <MedicalQualityMax>0.3</MedicalQualityMax>
+      <DeteriorationRate>3</DeteriorationRate>
+    </statBases>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SoothPain</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <skillRequirements>
+        <Medicine>2</Medicine>
+        <Intellectual>2</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <MedicineHerbal>1</MedicineHerbal>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1505</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>SoothPain</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>SoothPain</label>
+    <description>Pain soothing.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>2.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <painOffset>-0.10</painOffset>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

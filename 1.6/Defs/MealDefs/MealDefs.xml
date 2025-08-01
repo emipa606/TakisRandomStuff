@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="PottedMealBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>0</Beauty>
+      <DeteriorationRate>10</DeteriorationRate>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>20</stackLimit>
+    <tickerType>Rare</tickerType>
+    <rotatable>false</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="PottedMealBase" Name="PottedMealRottable" Abstract="True">
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>4</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <tradeability>Buyable</tradeability>
+  </ThingDef>
+  <ThingDef ParentName="PottedMealRottable">
+    <defName>BowlOfPorridge</defName>
+    <label>Bowl of Porridge</label>
+    <description>A simple meal quickly cooked from oats boiled in water.</description>
+    <graphicData>
+      <texPath>Things/Meals/Porridge</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.2</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Nutrition>0.7</Nutrition>
+      <Mass>0.35</Mass>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <tasteThought>AtePorridge</tasteThought>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="PottedMealRottable">
+    <defName>BowlOfCreamyPorridge</defName>
+    <label>Bowl of Creamy Porridge</label>
+    <description>A Bowl of porridge oats boiled in milk a simple meal.</description>
+    <graphicData>
+      <texPath>Things/Meals/CreamyPorridge</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.22</MarketValue>
+      <WorkToMake>400</WorkToMake>
+      <Nutrition>0.8</Nutrition>
+      <Mass>0.35</Mass>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <tasteThought>AteCreamySweetPorridge</tasteThought>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="PottedMealRottable">
+    <defName>BowlOfSweetPorridge</defName>
+    <label>Bowl of Sweet Porridge</label>
+    <description>A Bowl of porridge mixed with berries or fruits a simple meal.</description>
+    <graphicData>
+      <texPath>Things/Meals/SweetPorridge</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.25</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Nutrition>0.8</Nutrition>
+      <Mass>0.35</Mass>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <tasteThought>AteSweetPorridge</tasteThought>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="PottedMealRottable">
+    <defName>BowlOfCreamySweetPorridge</defName>
+    <label>Bowl of Creamy Sweet Porridge</label>
+    <description>A Bowl of porridge oats boiled in milk mixed with berries or fruits a fine simple meal.</description>
+    <graphicData>
+      <texPath>Things/Meals/CreamySweetPorridge</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.3</MarketValue>
+      <WorkToMake>500</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+      <Mass>0.4</Mass>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <tasteThought>AteCreamySweetPorridge</tasteThought>
+    </ingestible>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="VCE_RawOats"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VCE_RawOats"]</xpath>
+      <value>
+        <thingCategories>
+          <li>Cereal</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+</Patch>
